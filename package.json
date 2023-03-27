@@ -1,0 +1,22 @@
+{
+  "name": "dark-codes",
+  "displayName": "Dark Codes",
+  "description": "\"My only code is in the darkness.\" -Sasuke Uchiha",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Codes",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Codes-color-theme.json"
+      }
+    ]
+  }
+}
