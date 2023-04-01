@@ -1,9 +1,10 @@
 {
-  "name": "dark-codes",
-  "displayName": "Dark Codes",
-  "description": "\"My only code is in the darkness.\" -Sasuke Uchiha",
-  "version": "0.0.1",
-  "icon": "icon.png",
+  "name": "darkiro",
+  "displayName": "Darkiro",
+  "description": "A soulslike experience for your coding life!",
+  "publisher": "jeooo",
+  "version": "1.0.0",
+  "icon": "darkiro.png",
   "engines": {
     "vscode": "^1.76.0"
   },
@@ -13,10 +14,18 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark Codes",
+        "label": "Darkiro",
         "uiTheme": "vs-dark",
         "path": "./themes/Dark Codes-color-theme.json"
       }
     ]
+  },
+  "iconThemes": {
+    "light": "dark-codes.png",
+    "dark": "dark-codes.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeocarlolubao/minute-bugrits.git"
   }
 }
